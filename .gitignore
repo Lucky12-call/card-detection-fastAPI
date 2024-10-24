@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.c
+*.o
+*.a
+*.so
+
+# Virtual environment folders
+myenv/
+.env/
+.venv/
+env/
+ENV/
+
+# FastAPI specific
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# Python environment variable files
+.env
+*.env
+*.env.*
+
+# Ignore model files
+*.pt
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Pipenv files
+Pipfile.lock
+
+# Pytest
+.cache/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
